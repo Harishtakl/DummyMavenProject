@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11065" started-at="2021-04-23T14:47:25 IST" finished-at="2021-04-23T14:47:36 IST">
+  <suite name="Default suite" duration-ms="9385" started-at="2021-04-23T15:35:15 IST" finished-at="2021-04-23T15:35:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11065" started-at="2021-04-23T14:47:25 IST" finished-at="2021-04-23T14:47:36 IST">
+    <test name="Default test" duration-ms="9385" started-at="2021-04-23T15:35:15 IST" finished-at="2021-04-23T15:35:25 IST">
       <class name="Baseclass">
-        <test-method status="PASS" signature="initialconfig()[pri:0, instance:Baseclass@394e1a0f]" name="initialconfig" is-config="true" duration-ms="5" started-at="2021-04-23T14:47:25 IST" finished-at="2021-04-23T14:47:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialconfig -->
-        <test-method status="PASS" signature="ChromePBrowser()[pri:0, instance:Baseclass@394e1a0f]" name="ChromePBrowser" duration-ms="10980" started-at="2021-04-23T14:47:25 IST" finished-at="2021-04-23T14:47:36 IST">
+        <test-method status="PASS" signature="ChromePBrowser()[pri:0, instance:Baseclass@64729b1e]" name="ChromePBrowser" duration-ms="9353" started-at="2021-04-23T15:35:15 IST" finished-at="2021-04-23T15:35:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromePBrowser -->
