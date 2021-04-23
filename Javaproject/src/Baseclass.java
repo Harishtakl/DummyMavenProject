@@ -42,6 +42,8 @@ public class Baseclass {
 	}
 	
 	//**Creating the Method to call the Initial configuration Method******/
+	
+	
 	@BeforeMethod
 	public static void initialconfig()
 	{
@@ -58,6 +60,7 @@ public class Baseclass {
 		}
 		
 	}
+
 	
 	//***Utility Method to read the property from the properties file******//
 		public static String ReadProperty(String Key)
