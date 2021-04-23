@@ -22,6 +22,8 @@ public class Baseclass {
         //Using get() method to open a webpage
          driver.get("https://www.google.com/");
          System.out.println(driver.getTitle());
+         
+         System.out.println("Result is displaying correctly");
         
         //Closing the browser
         driver.quit();
