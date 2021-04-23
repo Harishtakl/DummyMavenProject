@@ -26,9 +26,9 @@ public class Baseclass {
         WebDriver driver;
         
         //Setting the webdriver.chrome.driver property to its executable's location
-        //System.setProperty("webdriver.chrome.driver", "D:\\Automation Projects\\Javaproject\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Automation Projects\\Javaproject\\drivers\\chromedriver.exe");
 	
-        System.setProperty("webdriver.chrome.driver", ReadProperty("chromedriverpath"));
+      //  System.setProperty("webdriver.chrome.driver", ReadProperty("chromedriverpath"));
         
         //Instantiating driver object
         driver = new ChromeDriver();
@@ -43,7 +43,7 @@ public class Baseclass {
 	
 	//**Creating the Method to call the Initial configuration Method******/
 	
-	
+	/*
 	@BeforeMethod
 	public static void initialconfig()
 	{
@@ -60,14 +60,16 @@ public class Baseclass {
 		}
 		
 	}
-
+*/
+	
 	
 	//***Utility Method to read the property from the properties file******//
-		public static String ReadProperty(String Key)
-		{
-			return prop.getProperty(Key);
+	//	public static String ReadProperty(String Key)
+	//	{
+	//		return prop.getProperty(Key);
 			
-		}
+	//	}
+	
 	
 
 }
